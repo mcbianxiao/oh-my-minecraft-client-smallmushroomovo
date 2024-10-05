@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - 'nyan-work/dev'
+  workflow_dispatch:
 
 jobs:
   build:
